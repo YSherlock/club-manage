@@ -1,0 +1,134 @@
+*{
+            margin: 0;
+            padding:0;
+        }
+
+        html{
+            background: #f2f2f2;
+        }
+
+        body{
+            background: #f2f2f2;
+        }
+
+        .top{
+            width: 100%;
+            height: 50px;
+            background: #5573b7;
+        }
+
+        .main{
+            margin-left: 200px;
+        }
+
+        .left_nav{
+            width: 200px;
+            height: 92.8%;
+            position: absolute;
+            background: #383d40;
+        }
+
+        .main_content{
+            margin: 20px;
+        }
+
+        table tbody tr:hover{
+            background: #fff8f0;
+        }
+
+        table thead th{
+            text-align: center;
+        }
+
+        table tbody td{
+            text-align: center;
+        }
+
+        .left_nav ul{
+            width: 100%;
+            height: 500px;
+        }
+
+        .left_nav ul li{
+            height: 75px;
+            color: #fff;
+            text-align: center;
+            line-height: 75px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        table{
+            border-radius: 5px;
+        }
+
+        .left_nav ul li.active{
+            color: #5573b7;
+            background: #e4e4e4;
+        }
+
+        .username{
+            float: right;
+            width: 100px;
+            height: 30px;
+            margin: 10px 0;
+        }
+
+        .username p{
+            margin: 0;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .leave{
+            float: right;
+            width: 100px;
+            height: 30px;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+
+        .leave p{
+            margin: 0;
+            height: 30px;
+            line-height: 30px;
+            color: #fff;
+            text-align: center;
+        }
+
+        .search{
+            height: 45px;
+            margin-bottom: 20px;
+            background: #fff;
+            border-radius: 5px;
+        }
+
+        .search form{
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .search form .search-item{
+            margin: 9px 20px;
+            height: 27px;
+            float: left;
+        }
+
+        .search-item label{
+            float: left;
+            height: 27px;
+            line-height: 27px;
+        }
+
+        .search-item input{
+            width: 150px;
+            float: left;
+            height: 27px;
+            margin-left: 10px;
+        }
+
+        .main_pop{
+            margin: 20px;
+        }

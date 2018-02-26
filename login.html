@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="description" content="">
+    <meta name="keyword" content="">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/crowd.css">
+    <style>
+        .main_chart{
+            width: 330px;
+            height: 300px;
+            margin: 200px auto;
+        }
+    </style>
+    
+    <script>
+        
+    </script>
+    </head>
+    <body>
+      <header>
+        <div class="bg" style="overflow: hidden;">
+            <canvas id="display"></canvas>
+            <div id="blachole"></div>
+
+            <div class="main_chart">
+          <form class="form-horizontal" role="form" method="post" action="loginc1.php">
+          <div class="form-group">
+            <label for="firstname" class="col-sm-2 control-label">编号</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="firstname" placeholder="请输入成员编号" name="sno">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="lastname" class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="lastname" placeholder="请输入密码" name="password">
+            </div>
+          </div>
+          <div class="form-group">
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" style="width: 100px;">登录</button>
+            </div>
+          </div>
+        </form>
+    </div>
+        </div>
+      </header>
+        
+
+    <script src="js/jquery.1.12.4.min.js"></script>
+    <script type="text/javascript" src="js/constellation.js"></script>
+    </body>
+
+    
+</html>
